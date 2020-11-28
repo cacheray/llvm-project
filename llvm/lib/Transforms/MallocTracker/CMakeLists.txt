@@ -1,4 +1,4 @@
-add_llvm_component_library(LLVMMallocTracker
+add_llvm_library(LLVMMallocTracker MODULE
   MallocTracker.cpp
 
   DEPENDS
